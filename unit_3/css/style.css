@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+	font-family: helvetica;
+	background-color: rgb(247,254,255);		
+}
+
+p {
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: lighter;
+	background: black;
+	color: white;
+}
+
+h5 {
+	font-size: 18px;
+	color: white;
+}
+
+hr{
+	color: rgb(175,232,235);
+	width: 800px;
+}
+
+div {
+	background-color: rgb(175,232,235);
+}
+
+header {
+	background:url(https://scontent.fbed1-2.fna.fbcdn.net/v/t31.0-8/13483362_958525334244970_1398358843870722342_o.jpg?oh=e8d546c7618c960fef63b41a5025b147&oe=5B0390FE);
+}
+
+a {
+	color: white;
+}
+#topheader {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+#slogan {
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+#portfoliobutton {
+	font-size: 20px;
+}
+
+
+footer {
+	text-align: right;
+	background-color: rgb(6,20,79);
+
+}
+
+
