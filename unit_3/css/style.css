@@ -1,19 +1,13 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+img { width:200px; }
 body {
-	text-align: center;
-	font-family: helvetica;
+	font-family: helvetica, arial, sans-serif;
 	background-color: rgb(247,254,255);		
 }
-
-p {
-	font-size: 14px;
-	font-weight: lighter;
-}
-
 h1 {
 	font-size: 42px;
 	font-weight: bold;
 }
-
 h2{
 	font-size: 30px;
 }
@@ -35,7 +29,7 @@ hr{
 	width: 800px;
 }
 
-div {
+#skills {
 	background-color: rgb(175,232,235);
 }
 
