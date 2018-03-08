@@ -1,14 +1,19 @@
 * {margin:0px;padding:0;box-sizing:border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Raleway');
+
 body {
 	font-family: helvetica, arial, sans-serif;
 	background-color: rgb(247,254,255);		
 }
 h1 {
+	font-family: 'Raleway', sans-serif;
 	font-size: 42px;
 	font-weight: bold;
 	margin: 10px
 }
 h2{
+	font-family: 'Raleway', sans-serif;
 	font-size: 32px;
 }
 
@@ -30,8 +35,10 @@ h5 {
 
 hr{
 	color: rgb(175,232,235);
-	width: 200px;
-	text-align: center;
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 #skills {
@@ -39,7 +46,7 @@ hr{
 }
 
 header {
-	padding: 250px;
+	padding: 200px;
 	background-image: url("images/Main-Picture.jpg");
 }
 
@@ -64,6 +71,14 @@ p{
 	line-height: 1.5em;
 	padding: 2px
 	margin: 0px;
+}
+
+#image-circle {
+	border-radius: 50%;
+	width: 15%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
 }
 #topheader {
 	font-size: 80px;
@@ -106,22 +121,22 @@ p{
 
 #philosophy {
 	text-align: center;
-	padding: 10px
+	padding: 30px
 }
 
 #skills {
 	text-align: center;
-	padding: 10px
+	padding: 30px
 }
 
 #main-projects {
 	text-align: center;
-	padding: 10px
+	padding: 30px
 }
 
 #additional-projects {
 	text-align: center;
-	padding: 10px
+	padding: 30px
 }
 footer {
 	text-align: right;
@@ -134,17 +149,26 @@ footer {
 }
 
 .designphilosophypictures {
-	width: 300px
+	width: 300px;
+	margin:10px;
 }
 
 .designskills {
-	width: 50px
+	width: 70px;
+	margin: 10px;
 }
 
 .mainprojects{
-	width: 450px
+	width: 450px;
+	margin: 15px;
 }
 
 .additionalprojects {
-	width: 400px
+	width: 400px;
+	margin: 15px;
+}
+
+.socialmedia{
+	margin:2px;
+	width: 40px;
 }
