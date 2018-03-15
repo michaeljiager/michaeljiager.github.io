@@ -1,0 +1,189 @@
+* {margin:0px;padding:0;box-sizing:border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Raleway');
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: rgb(247,254,255);		
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 42px;
+	font-weight: bold;
+	margin: 10px
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: lighter;
+	color: white;
+}
+
+h5 {
+	font-size: 18px;
+	color: white;
+}
+
+hr{
+	color: rgb(175,232,235);
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#skills {
+	background-color: rgb(175,232,235);
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#navigation-specific{ 
+	background-color: #E8C66A;
+	border:1px black solid;
+	text-align: center;
+	padding: 20px;
+}
+
+
+a {
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 30px
+}
+
+p{
+	font-size: 16px;
+	display: block;
+	font-family: helvetica, arial, serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	padding: 2px
+	margin: 0px;
+}
+
+section{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+#image-circle {
+	border-radius: 50%;
+	width: 15%;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#topheader {
+	font-size: 80px;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+#JobDescription {
+	text-align: center; 
+	font-size: 30px;
+	font-weight: normal;
+	color: white;
+	text-transform:uppercase;
+}
+
+#slogan {
+	font-size: 24px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+}
+#intro {
+	text-align: center;
+	margin: 2px;
+	padding: 200px;
+}
+
+#portfolio-direct-link {
+	background-color: #FFC675;
+	padding: 20px;
+	border: 1px black solid;
+	text-align: center;
+	
+}
+
+#portfoliobutton {
+	font-size: 20px;
+	color: black;
+}
+
+#philosophy {
+	text-align: center;
+	padding: 30px;
+}
+
+#skills {
+	text-align: center;
+	padding: 30px
+}
+
+#main-projects {
+	text-align: center;
+	padding: 30px
+}
+
+#additional-projects {
+	text-align: center;
+	padding: 30px
+}
+footer {
+	text-align: right;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#connecticons {
+	text-align: left;
+}
+
+.designphilosophypictures {
+	width: 300px;
+	margin:10px;
+}
+
+.designskills {
+	width: 70px;
+	margin: 10px;
+}
+
+.mainprojects{
+	width: 450px;
+	margin: 15px;
+}
+
+.additionalprojects {
+	width: 400px;
+	margin: 15px;
+}
+
+.socialmedia{
+	margin:2px;
+	width: 40px;
+}
+
+
+
