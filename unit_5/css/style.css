@@ -161,6 +161,7 @@ footer {
 }
 
 .designphilosophypictures {
+	display: inline;
 	width: 300px;
 	margin:10px;
 }
@@ -185,5 +186,7 @@ footer {
 	width: 40px;
 }
 
-
+.designphilosophy {
+	display: table;
+}
 
