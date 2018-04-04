@@ -1,0 +1,322 @@
+* {margin:0px;padding:0;box-sizing:border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Raleway');
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: rgb(247,254,255);
+	font-size: 16px		
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.6em;
+	font-weight: bold;
+	margin: 10px;
+	text-align:center;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding: 30px 0;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: lighter;
+	color: white;
+}
+
+h5 {
+	font-size: 1.1em;
+	color: white;
+}
+
+hr{
+	color: rgb(175,232,235);
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+header {
+	padding: 180px 0;
+	background-image: url("images/Main-Picture.jpg");
+	height: #;
+}
+
+nav{
+	background-color: rgb(6,20,79);
+	text-align: center;
+}
+
+
+a {
+	color: white;
+	font-weight: lighter;
+	font-size: 1.2em;
+	width: 200px;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+}
+
+p{
+	font-size: 1em;
+	font-family: helvetica, arial, serif;
+	font-weight: lighter;
+	line-height: 1.5em;
+	margin: 0px;
+}
+
+
+#image-circle {
+	border-radius: 50%;
+	width: 10em;
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#topheader {
+	font-size: 4em;
+	font-weight: normal;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+#JobDescription {
+	text-align: center; 
+	font-size: 1.8em;
+	font-weight: normal;
+	color: white;
+	text-transform:uppercase;
+}
+
+#slogan {
+	font-size: 1.5em;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+}
+#intro {
+	text-align: center;
+	margin: 2px;
+	padding: 200px;
+}
+
+#portfolio-direct-link {
+	margin: 2px 0;
+	padding: 4em;
+	text-align: center;
+	background-color: rgb(175,232,235)
+}
+
+#portfoliobutton {
+	font-size: 1.2em;
+	color: black;
+}
+
+#connecticons {
+	text-align: left;
+}
+
+.navigationlinks {
+	background-color: rgb(6,20,79);
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px;
+	margin: 0.5%;
+}
+
+.after-main {
+	clear:left;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear:both;
+	height: 0;
+	font-size: 0;
+}
+
+#philosophy {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.designphilosophypictures {
+	width: 50%;
+	margin:2px;
+}
+
+.Philosophyphotos-words {
+	float: left;
+	text-align: center;
+	width: 33.33%;
+	padding: 50px 25px;
+}
+
+#skills {
+	padding: 50px 0;
+	background-color: rgb(175,232,235);
+	text-align: center;
+}
+
+.designskills {
+	width: 70px;
+	margin: 0 20px;
+}
+
+.skill-images{
+	display: inline-block;
+	text-align: center;
+	padding: 50px 0;
+}
+
+#main-projects {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.mainprojects{
+	float: left;
+	display: inline-block;
+	width: 33.33%;
+	padding: 50px 5px;
+}
+
+#additional-projects {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.additionalprojects {
+	float: left;
+	width: 33.33%;
+	padding: 20px 5px;
+}
+
+footer {
+	background-color: rgb(6,20,79);
+	padding: 25px 0;
+}
+
+#connecticons-column{
+	text-align: left;
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
+
+.socialmedia{
+	margin:2px;
+	padding: 5px 0;
+	width: 10%;
+}
+
+#getintouch-column{
+	text-align: right;
+	float: right;
+	padding: 20px;
+	width:62%;
+}
+
+@media only screen and (max-width: 800px) {
+	#image-circle {
+		width: 9em;
+	}
+
+	.skill-images {
+		width: 20%;
+		padding: 20px 0;
+	}
+
+	nav a {
+		font-size: 1.2em;
+		width: 23%;
+	}
+	.additionalprojects {
+		float: left;
+		width: 33.33%;
+		padding: 30px 5px;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	header {
+		padding: 110px 0;
+	}
+	#image-circle {
+		width: 40%;
+	}
+	#topheader {
+		font-size: 2.5em;
+	}
+
+	#JobDescription {
+		font-size: 1.3em;
+	}
+
+	#slogan {
+		font-size: 1em;
+	}
+
+	nav a {
+		font-size: 1.1em;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.Philosophyphotos-words {
+		float: none;
+		width: 100%;
+		padding: 20px 25px;
+	}	
+
+	.skill-images {
+		width: 33.33%;
+		padding: 10px 0;
+	}
+	
+	.mainprojects{
+		float: none;
+		display: inline-block;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.additionalprojects {
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	#connecticons-column{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	float: none;
+}
+
+	#getintouch-column{
+	text-align: center;
+	float: none;
+	padding: 20px;
+	width:100%;
+}
+}
