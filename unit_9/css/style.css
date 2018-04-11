@@ -1,6 +1,7 @@
-* {margin:0px;padding:0;box-sizing:border-box;}
 
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Raleway');
+
+* {margin:0px;padding:0;box-sizing:border-box;}
 
 body {
 	font-family: helvetica, arial, sans-serif;
@@ -60,6 +61,7 @@ hr{
 header {
 	padding: 180px 0;
 	background-image: url("images/Main-Picture.jpg");
+	background-repeat: no-repeat; 
 	height: #;
 }
 
