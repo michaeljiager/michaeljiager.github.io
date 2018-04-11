@@ -3,6 +3,8 @@
 <head>
 	<title>Michael Ger</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<header>
@@ -26,15 +28,15 @@
 		<h2>My Design Philosophy</h2>
 		<div class="Philosophyphotos-words">
 			<img src="images/Philosophyicons-Sketch.png" alt="PhilosophySketch" class ="designphilosophypictures">
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Always sketch your idea even if it just came out of your head.</p>
 		</div>
 		<div class="Philosophyphotos-words">
 			<img src="images/Philosophyicons-Story.png" alt="PhilosophyStory" class ="designphilosophypictures">
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Always tell a story whether its about the idea itself or the user's journey.</p>
 		</div>
 		<div class="Philosophyphotos-words">
 			<img src="images/Philosophyicons-Fun.png" alt="PhilosophyFun" class ="designphilosophypictures" >
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			<p>Always have fun with your idea, if presented the chance.</p>
 		</div>
 	</section>
 	<section class="clearfix" id="skills">
@@ -68,19 +70,59 @@
 			<p>Maya</p>
 		</div>
 	</section>
-	<section class="clearfix" id="main-projects">
-		<h2>Main Projects</h2>
-		<img src="images/ProjectIcon2.jpg" alt="ThesisProject" class ="mainprojects">
-		<img src="images/ProjectIcon.jpg" alt="GradethelandlordProject" class ="mainprojects">
-		<img src="images/ProjectIcon3.jpg" alt="HotPotatoProject" class ="mainprojects">
+	<section class="clearfix" id="ux-uidesignprojects">
+		<h2>UX/UI Design Projects</h2>
+		<div class="ux-uidesign-image-text">
+		<img src="images/ProjectIcon2.jpg" alt="ThesisProject" class ="ux-uidesignpicture">
+			<div class="bottomleft">
+			<h5>Alternative Storytelling in Exhibitions</h5>
+			<p>User Research/Service Design</p>
+			<a class="projectlinks" href="#"> View Project &rarr;</a> 
+			</div>
+		</div>
+		<div class="ux-uidesign-image-text">
+		<img src="images/ProjectIcon.jpg" alt="GradethelandlordProject" class ="ux-uidesignpicture">
+			<div class="bottomleft">
+			<h5>Gradethelandlord.com Web Design</h5>
+			<p>User Experience/User Interface Design </p> 
+			<a class="projectlinks" href="#"> View Project &rarr;</a> 
+			</div>
+		</div>
+		<div class="ux-uidesign-image-text">
+		<img src="images/ProjectIcon3.jpg" alt="HotPotatoProject" class ="ux-uidesignpicture">
+			<div class="bottomleft">
+			<h5>Plato Dating App User Research</h5>
+			<p>User Research</p>
+			<a class="projectlinks" href="#"> View Project &rarr;</a>
+			</div>
+		</div>
 	</section>
-	<section class="clearfix" id="additional-projects">
-	<h2>Additional Projects</h2>
-		<img src="images/ProjectIcon4.jpg" alt="DroneProject" class="additionalprojects">
-		<img src="images/ProjectIcon42.jpg" alt="PillDispenserProject" class="additionalprojects">
-		<img src="images/ProjectIcon43.jpg" alt="WearableProject" class="additionalprojects">
-		<img src="images/ProjectIcon44.jpg" alt="DatingAppProject" class="additionalprojects">
-		<img src="images/ProjectIcon45.jpg" alt="MuralWallProject" class="additionalprojects">
+	<section class="clearfix" id="industrialdesignprojects">
+	<h2>Industrial Design Projects</h2>
+		<div class="industrialdesign-image-text">
+		<img src="images/ProjectIcon42.jpg" alt="PillDispenserProject" class="industrialdesignimages">
+			<div class="bottomleft">
+			<h5>Automatic Pill Dispenser</h5>
+			<p>Industrial Design</p>
+			<a class="projectlinks" href="#"> View Project &rarr;</a> 
+			</div>
+		</div>
+		<div class="industrialdesign-image-text">	
+		<img src="images/ProjectIcon4.jpg" alt="DroneProject" class="industrialdesignimages">
+		<div class="bottomleft">
+			<h5>Gestured Controlled Drone</h5>
+			<p>Concept Design</p>
+			<a class="projectlinks" href="#">View Project &rarr;</a>
+			</div>
+		</div>
+		<div class="industrialdesign-image-text">
+		<img src="images/ProjectIcon43.jpg" alt="WearableProject" class="industrialdesignimages">
+		<div class="bottomleft">
+			<h5>Wearable Tape Measurer</h5>
+			<p>Industrial Design</p>
+			<a class="projectlinks" href="#">View Project &rarr;</a>
+			</div>
+		</div>
 	</section>
 	<footer class="clearfix"> 
 		<div id="connecticons-column">
@@ -88,11 +130,19 @@
 			<img src="images/logos-04.png" alt="Facebooklogo" class="socialmedia">
 			<img src="images/logos-05.png" alt="instagramlogo" class="socialmedia">
 			<img src="images/logos-06.png" alt="twitterlogo" class="socialmedia">
+			<img src="images/linkedinicon-04.png" alt="linkedinlogo" class="socialmedia">
 		</div>
-		<div id="getintouch-column">
+		<div class="container">
 			<h4>GET IN TOUCH</h4>
-			<a href="mailto:michaeljiager@hotmail.com">michaeljiager@hotmail.com</a>
-		</div>
+			<form action="action_page.php">
+			<label for="fname">NAME</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your Name..." > 
+			<label for="subject">SUBJECT</label>
+			<textarea id="writesubject" name="rwritesubject" placeholder="Write something..."></textarea>
+			<input type="submit" name="Submit">
+		</div>	
 	</footer>	
+
+
 </body>
 </html>
