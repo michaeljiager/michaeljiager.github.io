@@ -72,6 +72,16 @@ nav{
 	text-align: center;
 }
 
+.nav-placeholder {
+	margin: 0 0 40px 0;
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
 
 a {
 	font-weight: lighter;
@@ -213,6 +223,8 @@ p{
 #ux-uidesignprojects {
 	text-align: center;
 	padding: 50px 0;
+	max-width: 1400px;
+	margin: auto;
 }
 
 .ux-uidesignpicture {
@@ -238,6 +250,8 @@ p{
 #industrialdesignprojects {
 	text-align: center;
 	padding: 50px 0 80px;
+	max-width: 1400px;
+	margin: auto;
 }
 
 .industrialdesignimages {
@@ -266,24 +280,31 @@ footer {
 }
 
 #connecticons-column{
-	text-align: center;
 	padding: 30px 20px;
 	width: 100%;
 }
 
-.socialmedia{
-	padding:2px;
-	width: 4%;
+
+#social_media_icons {
+	text-align: center;
+	margin: auto;
+
 }
 
-.container {
+.media_icons {
+	padding: 10px;
+	background: black;
+}
+
+#container {
 	padding: 30px 0;
 	color: white;
 	background-color: rgb(24,41,79);
 }
 
 form {
-	max-width: 1400px
+	max-width: 800px;
+	margin: auto;
 }
 
 input[type=text],select,textarea{
